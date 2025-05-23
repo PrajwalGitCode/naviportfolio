@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Russo+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Prajwal T</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#first">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#second">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#third">SKills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#arti">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="first" class="text-center" style="padding-top: 8rem; padding-bottom: 3rem; height:100vh;">
+    <div class="overlay"></div>
+    <div class="bg-image"></div>
+    <div class="container">
+      <img src="image/img4.jpg" alt="Profile Image" class="img-fluid rounded-circle mb-4"
+        style="width: 150px; height: 150px; object-fit: cover;">
+      <h1>Welcome To My Portfolio</h1>
+      <h2>If you want something done right, do it yourself.</h2>
+    </div>
+  </section>
+
+  <section id="second" class="fade-section">
+    <div class="container">
+      <h1>About</h1>
+      <div class="row align-items-center mt-5">
+        <h2>Hello! I'm a passionate full-stack developer committed to creating responsive, accessible, and impactful web
+          applications. I have hands-on experience with modern front-end technologies like HTML, CSS, JavaScript,
+          Bootstrap, and frameworks such as React, along with solid back-end expertise using Python, Django, and REST
+          APIs. I enjoy bridging the gap between design and technology to deliver seamless user experiences.
+          <br>
+          <br>
+          Beyond coding, I'm deeply curious about emerging technologies, continuously expanding my skill set through
+          real-world projects, internships, and self-driven learning. I thrive in collaborative environments, value
+          clean, maintainable code, and take pride in solving complex problems with creative solutions. Whether it's
+          debugging a tricky issue, optimizing a layout for performance, or refining UX interactions, I’m always focused
+          on building intuitive, scalable, and modern digital solutions.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="third" class="fade-section">
+    <div class="container">
+      <h1>Skills</h1>
+      <div class="row text-center mt-5">
+        <div class="col-md-4">
+          <h3><i class="fa fa-html5" style="font-size: 50px;"></i></h3>
+          <h1>Frontend</h1>
+          <h2>Skilled in HTML, CSS, JavaScript, and Bootstrap to build responsive, accessible websites. I focus on clean
+            UI, intuitive UX, and performance optimization.</h2>
+        </div>
+        <div class="col-md-4">
+          <h3><i class="fa fa-database" style="font-size: 50px;"></i></h3>
+          <h1>Backend</h1>
+          <h2>Skilled with Python, Django, and RESTful APIs to develop secure and scalable server-side applications.
+            I ensure robust database integration and smooth functionality behind the scenes.</h2>
+        </div>
+        <div class="col-md-4">
+          <h3><i class="fa fa-jsfiddle" style="font-size: 50px;"></i></h3>
+          <h1>UI/UX Design</h1>
+          <h2>Passionate about creating intuitive and user-friendly interfaces with a focus on seamless user experience.
+            Proficient in tools like Figma for designing layouts.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="arti" class="fade-section">
+    <div class="container">
+      <h1>Projects</h1>
+      <div class="row align-items-center mt-5 fade-left">
+        <div class="col-md-6">
+          <a href="https://nebulabank.pythonanywhere.com/">
+            <img src="image/img3.png" alt="MongoDB" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h2>All-in-one banking solution with secure transactions and UI.</h2>
+        </div>
+      </div>
+
+      <div class="row align-items-center mt-5 fade-right">
+        <div class="col-md-6 order-md-2">
+          <a href="https://thenebula.pythonanywhere.com/">
+            <img src="image/img2.png" alt="Express.js" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <h2>E-commerce platform built using Django, Python and Other Frameworks</h2>
+        </div>
+      </div>
+
+      <div class="row align-items-center mt-5 fade-left">
+        <div class="col-md-6">
+          <a href="https://mellifluous-trifle-a1753c.netlify.app/">
+            <img src="image/img5.png" alt="Node.js" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h2>Developed a responsive clone of the Apple homepage using HTML, CSS, and JavaScript.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="text-center py-5" style="background-color: rgb(40, 40, 40);">
+    <h1>Contact Us</h1>
+    <div class="footer-icons mt-4">
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin-square"></i>
+      <i class="fa fa-youtube-play"></i>
+      <i class="fa fa-github-square"></i>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
